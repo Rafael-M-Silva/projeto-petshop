@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+   /*  color: red; */ /* altera a cor da letra */
+   /*  background-color: aqua;  *//* altera a cor de fundo */
+    /*  font-family: "Roboto", sans-serif;  */
+}
+
+/* .letra-azul é para chamar a classe */
+/* #letra-azul {
+    color: blue;
+    font-size: 60px;
+}
+ */
+
+ header {
+    display: flex;
+    background: lightsalmon;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+
+
+/* 
+ header h1 {
+    font-size: 2rem;
+ } */
+ 
+ header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+
+
+.caixa {
+    color: aliceblue;
+    background: blue;
+    padding: 20px; /* espaçamento dentro */
+    margin: 20px; /* espaçamento fora */
+    border: rgb(162, 150, 150) solid 2px; /* borda */
+    border-radius: 10px;
+}
+
+
+header a, header i {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+/* quando eu passar o mouse vai acontecer isso */
+header a:hover, header i:hover {
+    background: white;
+    box-shadow: 2px 2px 0px rgba(42, 40, 40, 0.185);
+}
